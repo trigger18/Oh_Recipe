@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+* {
+	font-family: 'Noto Sans KR';
+}
+
+.R_div {
+	margin: 0 auto;
+	width: 760px;
+	text-align: center;
+	border: solid 1px rgb(200, 200, 200);
+	background: rgb(250, 250, 250);
+	margin-top: 40px;
+}
+
+#R_header {
+	height: 590px;
+	margin-top: 150px;
+	padding-top: 50px;
+}
+
+#R_image {
+	width: 570px;
+	height: 350px;
+	margin-top: 50px;
+	overflow: hidden;
+	margin: 20px auto;
+}
+
+#R_image img {
+	width: 100%;
+	margin-top: -130px;
+}
+
+#R_header h2 {
+	margin-top: 50px;
+	font-weight: normal;
+}
+
+/*********** 음식 정보 시작 ***********/
+#R_info {
+	height: 200px;
+}
+
+#R_info>* {
+	width: 190px;
+	height: 150px;
+	float: left;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-left: solid 1px rgb(178, 178, 178);
+}
+
+#R_info div:nth-child(1) {
+	border-left: none;
+}
+
+#R_cal, #R_hour, #R_minute {
+	font-size: 51px;
+	letter-spacing: -4px;
+}
+
+#R_info p {
+	margin-bottom: 36px;
+}
+
+/*************재료 중요도 시작****************/
+#R_importance {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#R_importance  h3 {
+	font-size: 23px
+}
+
+.R_ig_div {
+	width: 375px;
+	display: inline-block;
+}
+
+.R_ing {
+	height: 40px;
+	width: 380px;
+	padding-top: 15px;	
+    font-weight: bold;
+}
+
+.R_rate_div {
+	width: 176px;
+    height: 29px;
+    background: rgb(220, 220, 220);
+    margin: 0 auto;
+    float: right;
+    margin-right: 60px;
+}
+
+.R_rate {
+	height: 29px;
+    background: #ce0000;
+}
+
+
+#R_recipeDiv {
+	padding: 20px 0;
+}
+
+.R_recipe {
+	padding: 30px;
+	padding-left: 60px;
+	height: 50px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.R_recipe hr {
+	margin-top: 15px;
+}
+
+.R_num {
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+#order{
+width: 141px;
+    height: 39px;
+    -webkit-appearance: none;
+    border: none;
+    font-size: 18px;
+    padding-left: 12px;
+    background: rgb(250, 250, 250);
+    margin-left: -5px;
+    margin-top: 8px;
+    margin-right: 459px;
+    background-image: url(/semiRecipe/img/comment_1.png);
+    background-size: 133px;
+    background-position-x: -8px;
+}
+
+#comment_num{
+	background: rgb(250, 250, 250);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#closeShow {
+	padding: 3px;
+	text-decoration: none;
+	color: #FFF5E6;
+	background-color: rgba(242, 159, 5, 0.8);
+	border-radius: 0.5rem;
+	border: none;
+	font-size: 18px;
+	margin-top: 21px;
+	width: 300px;
+	height: 58px;
+	box-shadow: inset 3px 0px 9px 1px rgba(255, 255, 255, 0.24);
+
+}
