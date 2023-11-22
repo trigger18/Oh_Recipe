@@ -2,6 +2,7 @@
 
 ## About Project
 - 레시피 제공 서비스
+- 레시피 공공 API 사용 
 <img src="/project_images/main.jpg" style="width: 500px; height: 350px" />
 <br />
 
@@ -39,13 +40,6 @@
 <br />
 
 
-## Contribute
-- KH Academy team Oh Recipe
-- 강지영
-- 이해람
-- 양지수
-- 최범식
-- 홍철민
 
 
 
